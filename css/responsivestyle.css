@@ -1,0 +1,83 @@
+/* @media (max-width:320px){
+	figure.effect-moses h4 {
+		padding: 22px 10px 10px 10px;
+		width: 50%;
+		font-size: 25px;
+	}
+	.snow-container {
+		position: absolute;
+		height: 198px;
+	}
+	figure.effect-moses p {
+		float: right;
+		padding: 7px 1px;
+		font-size: 11px;
+		letter-spacing: 4px;
+	}
+	figure.effect-moses h4 {
+		padding: 13px 10px 10px 10px;
+		width: 50%;
+		font-size: 23px;
+	}
+	.date {
+		text-align: center;
+		margin: 0 auto;
+		width: 63%;
+	}
+} */
+@media (max-width: 600px){
+	.home-agile-text {
+        padding: 50px 0;
+    }
+	.agile-homes-w3l.grid figure figcaption {
+		padding: 2em 2em;
+		font-size: 1em;
+	}
+	figure.effect-moses p {
+		float: right;
+		padding: 10px 5px;
+		font-size: 12px;
+		letter-spacing: 8px;
+	}
+	figure.effect-moses h4 {
+		padding: 5px;
+		width: 50%;
+		font-size: 23px;
+	}
+	.agileits-right {
+		float: right;
+		width: 100%;
+	}
+	.w3-agile-left, .w3-agile-left2 {
+		width: 70%;
+		padding: 10px 10px;
+	}
+	.work-left h4 {
+		font-size: 25px;
+	}
+	.agileits-right a {
+      font-size: 19px;
+	}
+	h5.w3ls_single_agileinfo {
+		font-size: 1.8em;
+		letter-spacing: 1px;
+	}
+	.date {
+		text-align: center;
+		margin: 0 auto;
+		width: 47%;
+	}
+	.home-agile-text h4 {
+       font-size: 2.5em;
+	}
+    .dinner1{
+        order: 2;
+    }
+    .portfolio-item .item{
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .portfolio-item{
+        margin: 5px;
+    }
+}
