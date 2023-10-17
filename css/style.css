@@ -1952,6 +1952,7 @@ textarea.form-control {
       } }
 .text-justify {
   text-align: justify;
+  margin-bottom:10px;
 }
 .ftco-about .icon {
   font-size: 10vw;
