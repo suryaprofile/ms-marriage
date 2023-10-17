@@ -1695,6 +1695,9 @@ h5,
       letter-spacing: .1em; }
     .ftco-navbar-light.scrolled .nav-link {
       color: #000000 !important; }
+      .ftco-navbar-light.scrolled .navbar-brand img{
+        filter: brightness(0) saturate(100%) invert(23%) sepia(57%) saturate(1574%) hue-rotate(289deg) brightness(85%) contrast(115%);
+      }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #f67e7d !important; }
     .ftco-navbar-light.scrolled.awake {
