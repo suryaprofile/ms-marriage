@@ -329,7 +329,7 @@ $('.wd_family_slider .owl-carousel').owlCarousel({
 	margin:10,
 	nav:true,
 	touchDrag: true,  // Allow touch interactions
-  mouseDrag: true, 
+ 	mouseDrag: false, 
 	navText:["<i class='fa fa-angle-left'></i>" , "<i class='fa fa-angle-right'></i>"],
 	responsive:{
 		0:{
