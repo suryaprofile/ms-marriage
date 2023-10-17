@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom:0; }
 
 address {
   margin-bottom: 1rem;
@@ -1963,7 +1963,7 @@ textarea.form-control {
 .ftco-about .time {
   font-family: "Libre Caslon Text", serif;
   font-size: 48px;
-  color: rgba(0, 0, 0, 0.4);
+  color:#f67e7d;
   text-transform: uppercase; }
 
 .bride-groom {
@@ -2266,7 +2266,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 2em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
