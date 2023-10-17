@@ -88,4 +88,8 @@
 		padding-top: 49px;
 		padding-bottom: 49px;
 	}
+	.gla_section .container img{
+		width: 180px;
+		height: 100px;
+	}
 }
