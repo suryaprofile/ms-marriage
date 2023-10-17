@@ -80,4 +80,12 @@
     .portfolio-item{
         margin: 5px;
     }
+	.gla_section{
+		padding: 0;
+		background-size: contain;
+	}
+	.gla_section .container{
+		padding-top: 49px;
+		padding-bottom: 49px;
+	}
 }

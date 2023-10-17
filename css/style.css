@@ -3011,12 +3011,12 @@ body{
 }
 /* Thank you */
 .gla_section {
-  background-image: url("http://glanz.starkethemes.com/html/images/wedding/carita_lee/15313125490_cddc46c828_k.jpg");
-   background-attachment: fixed; 
-   background-position: 50% -4.07998px;
-   background-repeat: no-repeat;
-   position: relative;
-   background-size: cover;
+  background-image: url("../images/bride/footer.jpg");
+  background-position: top !important;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    padding: 100px;
 }
 .gla_over {
   width: 100%;
