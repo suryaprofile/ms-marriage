@@ -2798,7 +2798,10 @@ body{
     animation-duration: 2s;
     animation-delay: 300ms;
     animation-iteration-count: infinite;
-    animation-name: pulse;
+    animation-name: pulse; 
+}
+.bride-about{   
+  transform: scaleX(-1);
 }
 .wd_family_tabbox .nav > li > a  > img{
 	border:4px solid #e4e4e4;
