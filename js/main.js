@@ -25,7 +25,10 @@
             $('.scroll-to-top').fadeOut();
         }
     });
-	
+
+	//PRE LOADING
+    $('#preloader').fadeOut('slow');   
+
 	"use strict";
 
 	$(window).stellar({
