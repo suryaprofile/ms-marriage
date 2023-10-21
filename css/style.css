@@ -2316,7 +2316,8 @@ textarea.form-control {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font-style: italic; }
   .testimony-wrap .user-img {
     width: 80px;
     height: 80px;
