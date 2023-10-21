@@ -2,6 +2,7 @@
  	duration: 800,
  	easing: 'slide'
  });
+ 
  // Scroll to a Specific Div
  if($('.scroll-to-target').length){
 	$(".scroll-to-target").on('click', function() {
@@ -15,6 +16,16 @@
 }
 (function($) {
 
+	$(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            // Show the button when scrolling down, adjust 100 to your preference
+            $('.scroll-to-top').fadeIn();
+        } else {
+            // Hide the button when at the top
+            $('.scroll-to-top').fadeOut();
+        }
+    });
+	
 	"use strict";
 
 	$(window).stellar({
@@ -25,7 +36,6 @@
     hideDistantElements: false,
     scrollProperty: 'scroll'
   });
-
 
 	var fullHeight = function() {
 

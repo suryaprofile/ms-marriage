@@ -3377,13 +3377,13 @@ Scroll To Top style
   position: fixed;
   right: 20px;
   bottom: 20px;
-  width: 40px;
+  width: 35px;
   font-size: 16px;
-  line-height: 40px;
-  color: palevioletred;
+  line-height: 35px;
+  color: #fff;
   text-align: center;
   cursor: pointer;
-  background-color: var(--theme-color2);
+  background-color: #8a1559;
   z-index: 100;
   display: none;
   border-radius: 50%;
@@ -3395,6 +3395,19 @@ Scroll To Top style
 }
 
 .scroll-to-top:hover {
-  background: palevioletred;
-  color: #ffffff;
+  background: #fff;
+  color: #8a1559;
 }  
+
+#scrollUp {
+  background: #1fb0e6 none repeat scroll 0 0;
+  bottom: 30px;
+  color: #fff;
+  font-size: 22px;
+  height: 40px;
+  line-height: 40px;
+  right: 50px;
+  text-align: center;
+  width: 40px;
+  border-radius: 50%;
+}
