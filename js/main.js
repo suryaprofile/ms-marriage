@@ -27,10 +27,13 @@
     });
 
 	//PRE LOADING
-    $('#preloader').fadeOut('slow');   
+$(document).ready(function() {
+    setTimeout(function() {
+        $('#preloader').fadeOut('slow');
+    }, 1000); // Delay for 1000 milliseconds (1 second)
+});
 
 	"use strict";
-
 	$(window).stellar({
     responsive: true,
     parallaxBackgrounds: true,
@@ -49,9 +52,6 @@
 
 	};
 	fullHeight();
-
-	// loader
-	$('#preloader').delay(350).fadeOut('slow');
 
 	// Scrollax
    $.Scrollax();
