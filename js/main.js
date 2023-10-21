@@ -133,6 +133,8 @@ $(document).ready(function() {
 			margin: 30,
 			stagePadding: 0,
 			nav: false,
+			touchDrag: true,  // Allow touch interactions
+ 	mouseDrag: false, 
 			dots: true,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
