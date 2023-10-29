@@ -46,9 +46,7 @@
           <span class="lod3"><img src="images/bg/3.png" alt="" loading="lazy"></span>
       </div>
   </div>
-  <audio controls autoplay hidden="true">
-    <source src="images/bg/Tharagathi Gadhi - SenSongsMp3.Com.mp3" type="audio/mpeg">
-  </audio>
+ 
     <nav
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
       id="ftco-navbar"
@@ -134,14 +132,17 @@
         muted
       >
         <source src="./images/bg/bannerbgvideo.mp4" type="video/mp4" />
-        <!-- <track kind="captions" label="English" src="images/bg/Tharagathi Gadhi - SenSongsMp3.Com.mp3" srclang="en" default> -->
-        Your browser does not support the video tag.
+          Your browser does not support the video tag.
       </video>
-      <a
+      
+      <!-- <a
         class="player"
         data-property="{videoURL:'./images/bg/bannerbgvideo.mp4',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:false, startAt:0, opacity:1, quality:'default',optimizeDisplay:true}"
-      ></a>
+      ></a> -->
       <div class="container">
+        <audio controls autoplay hidden  style="z-index: 99999;">
+          <source src="images/bg/audio.mp3" type="audio/mpeg">
+        </audio>
         <div
           class="row js-fullheight justify-content-center d-flex align-items-center"
         >
