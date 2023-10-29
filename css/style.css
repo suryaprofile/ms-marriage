@@ -1957,9 +1957,9 @@ padding-top: 20px;}
   margin-bottom:10px;
 }
 .ftco-about .icon {
-  font-size: 20vw;
+  font-size: 10vw;
   line-height: 0;
-  /* color: rgba(0, 0, 0, 0.1); */
+  color: rgba(0, 0, 0, 0.1);
   display: block;
   margin-bottom: 80px; }
 
