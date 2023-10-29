@@ -1937,7 +1937,8 @@ textarea.form-control {
 .ftco-about h2 {
   font-size: 64px;
   color: #f67e7d;
-  font-family: "Great Vibes", cursive; }
+  font-family: "Great Vibes", cursive; 
+padding-top: 20px;}
 
 .ftco-about .img {
   display: block;
@@ -1949,16 +1950,16 @@ textarea.form-control {
       height: 350px;     
       background-position-y: 40%;}
       .ftco-about .icon{
-        margin-bottom: 0px !important;
+        margin-bottom: 25px !important;
       } }
 .text-justify {
   text-align: justify;
   margin-bottom:10px;
 }
 .ftco-about .icon {
-  font-size: 10vw;
+  font-size: 20vw;
   line-height: 0;
-  color: rgba(0, 0, 0, 0.1);
+  /* color: rgba(0, 0, 0, 0.1); */
   display: block;
   margin-bottom: 80px; }
 
