@@ -58,6 +58,7 @@
             alt="logo"
             class="logo"
         /></a>
+        <i class="fa fa-music" aria-hidden="true" id="audio-icon"></i>
         <button
           class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
           type="button"
@@ -134,15 +135,8 @@
         <source src="./images/bg/bannerbgvideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
       </video>
-      
-      <!-- <a
-        class="player"
-        data-property="{videoURL:'./images/bg/bannerbgvideo.mp4',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:false, startAt:0, opacity:1, quality:'default',optimizeDisplay:true}"
-      ></a> -->
-      <div class="container">
-        <audio controls autoplay hidden  style="z-index: 99999;">
-          <source src="images/bg/audio.mp3" type="audio/mpeg">
-        </audio>
+     
+      <div class="container">      
         <div
           class="row js-fullheight justify-content-center d-flex align-items-center"
         >
@@ -1513,5 +1507,51 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
     ></script>
+    <!-- <script>
+      const audio = new Audio('images/bg/audio.mp3');
+      const audioIcon = document.getElementById('audio-icon');
+    
+      let isPlaying = false;
+    
+      audioIcon.addEventListener('click', () => {
+        if (isPlaying) {
+          audio.pause();
+          audioIcon.classList.remove('fa-pause');
+          audioIcon.classList.add('fa-play');
+        } else {
+          audio.play();
+          audioIcon.classList.remove('fa-play');
+          audioIcon.classList.add('fa-pause');
+        }
+        isPlaying = !isPlaying;
+      });
+    </script> -->
+     <script>
+      window.onload = function() {
+          const audio = new Audio('images/bg/audio.mp3');
+          const audioIcon = document.getElementById('audio-icon');
+
+          let isPlaying = false;
+
+          audioIcon.addEventListener('click', () => {
+              if (isPlaying) {
+                  audio.pause();
+                  audioIcon.classList.remove('fa-pause');
+                  audioIcon.classList.add('fa-play');
+              } else {
+                  audio.play();
+                  audioIcon.classList.remove('fa-play');
+                  audioIcon.classList.add('fa-pause');
+              }
+              isPlaying = !isPlaying;
+          });
+
+          // Automatically play the audio when the window loads
+          audio.play();
+          audioIcon.classList.remove('fa-play');
+          audioIcon.classList.add('fa-pause');
+          isPlaying = true;
+      };
+  </script>
   </body>
 </html>
