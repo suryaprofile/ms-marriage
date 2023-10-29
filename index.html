@@ -58,8 +58,10 @@
             alt="logo"
             class="logo"
         /></a>
-        <i class="fa fa-music" aria-hidden="true" id="audio-icon"></i>
-        <button
+        <div class="hide-lg"> 
+        <i class="fa fa-music" aria-hidden="true" id="audio-icon" data-toggle="tooltip" data-placement="bottom" title="Play the music"></i>
+      
+      </div>         <button
           class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
           type="button"
           data-toggle="collapse"
@@ -68,10 +70,11 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="oi oi-menu"></span>
+          <span class="oi oi-menu"></span>       
+       
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav nav ml-auto">
+          <ul class="navbar-nav nav ml-auto">           
             <li class="nav-item">
               <a href="#home-section" class="nav-link"><span>Home</span></a>
             </li>
@@ -101,8 +104,12 @@
                 ><span>Gallery</span></a
               >
             </li>
+            <li class="nav-item hide-sm">
+            <i class="fa fa-music" aria-hidden="true" id="audio-icon1"  title="Play the music"></i>
+            </li>
           </ul>
         </div>
+       
       </div>
     </nav>
     <div class="snow-container">
@@ -1507,7 +1514,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
     ></script>
-    <!-- <script>
+    <script>
       const audio = new Audio('images/bg/audio.mp3');
       const audioIcon = document.getElementById('audio-icon');
     
@@ -1525,33 +1532,25 @@
         }
         isPlaying = !isPlaying;
       });
-    </script> -->
-     <script>
-      window.onload = function() {
-          const audio = new Audio('images/bg/audio.mp3');
-          const audioIcon = document.getElementById('audio-icon');
-
-          let isPlaying = false;
-
-          audioIcon.addEventListener('click', () => {
-              if (isPlaying) {
-                  audio.pause();
-                  audioIcon.classList.remove('fa-pause');
-                  audioIcon.classList.add('fa-play');
-              } else {
-                  audio.play();
-                  audioIcon.classList.remove('fa-play');
-                  audioIcon.classList.add('fa-pause');
-              }
-              isPlaying = !isPlaying;
-          });
-
-          // Automatically play the audio when the window loads
-          audio.play();
-          audioIcon.classList.remove('fa-play');
-          audioIcon.classList.add('fa-pause');
-          isPlaying = true;
-      };
-  </script>
+    </script> 
+   <script>
+    const audio1 = new Audio('images/bg/audio.mp3');
+    const audioIcon1 = document.getElementById('audio-icon1');
+  
+    let isPlaying1 = false;
+  
+    audioIcon1.addEventListener('click', () => {
+      if (isPlaying1) {
+        audio1.pause();
+        audioIcon1.classList.remove('fa-pause');
+        audioIcon1.classList.add('fa-play');
+      } else {
+        audio1.play();
+        audioIcon1.classList.remove('fa-play');
+        audioIcon1.classList.add('fa-pause');
+      }
+      isPlaying1 = !isPlaying1;
+    });
+  </script> 
   </body>
 </html>

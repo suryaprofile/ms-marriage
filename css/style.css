@@ -3502,3 +3502,22 @@ Scroll To Top style
       transform: scale(1);
   }
 }
+#audio-icon, #audio-icon1 {
+  font-size: 20px;
+  color: #fff;
+  vertical-align: -webkit-baseline-middle;
+  cursor: pointer;
+}
+.ftco-navbar-light.scrolled #audio-icon{
+  color: rgb(246, 126, 125)
+}
+@media (min-width:767px){
+  .hide-lg {
+    display: none;
+  }
+}
+@media (max-width:767px){
+  .hide-sm {
+    display: none;
+  }
+}
