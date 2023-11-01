@@ -3509,7 +3509,7 @@ Scroll To Top style
   vertical-align: -webkit-baseline-middle;
   cursor: pointer;
 }
-.ftco-navbar-light.scrolled #audio-icon{
+.ftco-navbar-light.scrolled #audio-icon, .ftco-navbar-light.scrolled #audio-icon1{
   color: rgb(246, 126, 125)
 }
 @media (min-width:767px){
